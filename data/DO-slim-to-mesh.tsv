@@ -1,0 +1,120 @@
+doid_code	doid_name	mesh_id	mesh_name
+DOID:2531	hematologic cancer	D019337	Hematologic Neoplasms
+DOID:1319	brain cancer	D001932	Brain Neoplasms
+DOID:263	kidney cancer	D007680	Kidney Neoplasms
+DOID:1793	pancreatic cancer	D010190	Pancreatic Neoplasms
+DOID:4159	skin cancer	D012878	Skin Neoplasms
+DOID:184	bone cancer	D001859	Bone Neoplasms
+DOID:2394	ovarian cancer	D010051	Ovarian Neoplasms
+DOID:1612	breast cancer	D001943	Breast Neoplasms
+DOID:3070	malignant glioma	D005910	Glioma
+DOID:363	uterine cancer	D014594	Uterine Neoplasms
+DOID:3953	adrenal gland cancer	D000310	Adrenal Gland Neoplasms
+DOID:5041	esophageal cancer	D004938	Esophageal Neoplasms
+DOID:8850	salivary gland cancer	D012468	Salivary Gland Neoplasms
+DOID:10283	prostate cancer	D011471	Prostatic Neoplasms
+DOID:10534	stomach cancer	D013274	Stomach Neoplasms
+DOID:11054	urinary bladder cancer	D001749	Urinary Bladder Neoplasms
+DOID:1192	peripheral nervous system neoplasm	D010524	Peripheral Nervous System Neoplasms
+DOID:3571	liver cancer	D008113	Liver Neoplasms
+DOID:119	vaginal cancer	D014625	Vaginal Neoplasms
+DOID:11934	head and neck cancer	D006258	Head and Neck Neoplasms
+DOID:1993	rectum cancer	D012004	Rectal Neoplasms
+DOID:2174	ocular cancer	D005134	Eye Neoplasms
+DOID:219	colon cancer	D003110	Colonic Neoplasms
+DOID:2596	larynx cancer	D007822	Laryngeal Neoplasms
+DOID:2994	germ cell cancer	D009373	Neoplasms, Germ Cell and Embryonal
+DOID:3277	thymus cancer	D013953	Thymus Neoplasms
+DOID:4045	muscle cancer	D009217	Myosarcoma
+DOID:11239	appendix cancer	D001063	Appendiceal Neoplasms
+DOID:11819	ureter cancer	D014516	Ureteral Neoplasms
+DOID:1245	vulva cancer	D014846	Vulvar Neoplasms
+DOID:13499	jejunal cancer	D007580	Jejunal Neoplasms
+DOID:175	vascular cancer	D019043	Vascular Neoplasms
+DOID:1790	malignant mesothelioma	D008654	Mesothelioma
+DOID:1909	melanoma	D008545	Melanoma
+DOID:1964	fallopian tube cancer	D005185	Fallopian Tube Neoplasms
+DOID:2998	testicular cancer	D013736	Testicular Neoplasms
+DOID:3121	gallbladder cancer	D005706	Gallbladder Neoplasms
+DOID:3565	meningioma	D008577	Meningeal Neoplasms
+DOID:4606	bile duct cancer	D001650	Bile Duct Neoplasms
+DOID:5559	mediastinal cancer	D008479	Mediastinal Neoplasms
+DOID:5612	spinal cancer	D013120	Spinal Cord Neoplasms
+DOID:5875	retroperitoneal cancer	D012186	Retroperitoneal Neoplasms
+DOID:8778	Crohn's disease	D003424	Crohn Disease
+DOID:2377	multiple sclerosis	D009103	Multiple Sclerosis
+DOID:9352	type 2 diabetes mellitus	D003924	Diabetes Mellitus, Type 2
+DOID:8577	ulcerative colitis	D003093	Colitis, Ulcerative
+DOID:9744	type 1 diabetes mellitus	D003922	Diabetes Mellitus, Type 1
+DOID:7148	rheumatoid arthritis	D001172	Arthritis, Rheumatoid
+DOID:3393	coronary artery disease	D003324	Coronary Artery Disease
+DOID:3393	coronary artery disease	D003327	Coronary Disease
+DOID:3393	coronary artery disease	D017202	Myocardial Ischemia
+DOID:9970	obesity	D009765	Obesity
+DOID:10608	celiac disease	D002446	Celiac Disease
+DOID:9074	systemic lupus erythematosus	D008180	Lupus Erythematosus, Systemic
+DOID:9835	refractive error	D012030	Refractive Errors
+DOID:12236	primary biliary cirrhosis	D008105	Liver Cirrhosis, Biliary
+DOID:12306	vitiligo	D014820	Vitiligo
+DOID:10871	age related macular degeneration	D008268	Macular Degeneration
+DOID:14221	metabolic syndrome X	D024821	Metabolic Syndrome X
+DOID:2841	asthma	D001249	Asthma
+DOID:5419	schizophrenia	D012559	Schizophrenia
+DOID:6364	migraine	D008881	Migraine Disorders
+DOID:10652	Alzheimer's disease	D000544	Alzheimer Disease
+DOID:12361	Graves' disease	D006111	Graves Disease
+DOID:14330	Parkinson's disease	D010300	Parkinson Disease
+DOID:3310	atopic dermatitis	D003876	Dermatitis, Atopic
+DOID:3312	bipolar disorder	D001714	Bipolar Disorder
+DOID:7147	ankylosing spondylitis	D013167	Spondylitis, Ankylosing
+DOID:11612	polycystic ovary syndrome	D011085	Polycystic Ovary Syndrome
+DOID:10763	hypertension	D006973	Hypertension
+DOID:418	systemic scleroderma	D012595	Scleroderma, Systemic
+DOID:13241	Behcet's disease	D001528	Behcet Syndrome
+DOID:5408	Paget's disease of bone	D010001	Osteitis Deformans
+DOID:1024	leprosy	D007918	Leprosy
+DOID:10941	intracranial aneurysm	D002532	Intracranial Aneurysm
+DOID:1686	glaucoma	D005901	Glaucoma
+DOID:332	amyotrophic lateral sclerosis	D000690	Amyotrophic Lateral Sclerosis
+DOID:0050425	restless legs syndrome	D012148	Restless Legs Syndrome
+DOID:13378	Kawasaki disease	D009080	Mucocutaneous Lymph Node Syndrome
+DOID:1936	atherosclerosis	D050197	Atherosclerosis
+DOID:986	alopecia areata	D000506	Alopecia Areata
+DOID:11476	osteoporosis	D010024	Osteoporosis
+DOID:1459	hypothyroidism	D007037	Hypothyroidism
+DOID:2986	IgA glomerulonephritis	D005922	Glomerulonephritis, IGA
+DOID:11949	Creutzfeldt-Jakob disease	D007562	Creutzfeldt-Jakob Syndrome
+DOID:14227	azoospermia	D053713	Azoospermia
+DOID:1826	epilepsy syndrome	D004827	Epilepsy
+DOID:2043	hepatitis B	D006509	Hepatitis B
+DOID:3083	chronic obstructive pulmonary disease	D029424	Pulmonary Disease, Chronic Obstructive
+DOID:7693	abdominal aortic aneurysm	D017544	Aortic Aneurysm, Abdominal
+DOID:784	chronic kidney failure	D007676	Kidney Failure, Chronic
+DOID:9008	psoriatic arthritis	D015535	Arthritis, Psoriatic
+DOID:10976	membranous glomerulonephritis	D015433	Glomerulonephritis, Membranous
+DOID:11714	gestational diabetes	D016640	Diabetes, Gestational
+DOID:12365	malaria	D008288	Malaria
+DOID:12849	autistic disorder	D001321	Autistic Disorder
+DOID:12930	dilated cardiomyopathy	D002311	Cardiomyopathy, Dilated
+DOID:13189	gout	D015210	Arthritis, Gouty
+DOID:13223	uterine fibroid	D007889	Leiomyoma
+DOID:14268	sclerosing cholangitis	D015209	Cholangitis, Sclerosing
+DOID:8986	narcolepsy	D009290	Narcolepsy
+DOID:9296	cleft lip	D002971	Cleft Lip
+DOID:0050156	idiopathic pulmonary fibrosis	D054990	Idiopathic Pulmonary Fibrosis
+DOID:1094	attention deficit hyperactivity disorder	D001289	Attention Deficit Disorder with Hyperactivity
+DOID:11119	Gilles de la Tourette syndrome	D005879	Tourette Syndrome
+DOID:14004	thoracic aortic aneurysm	D017545	Aortic Aneurysm, Thoracic
+DOID:1595	endogenous depression	D003866	Depressive Disorder
+DOID:4989	pancreatitis	D010195	Pancreatitis
+DOID:585	nephrolithiasis	D053040	Nephrolithiasis
+DOID:824	periodontitis	D010518	Periodontitis
+DOID:9206	Barrett's esophagus	D001471	Barrett Esophagus
+DOID:11555	Fuchs' endothelial dystrophy	D005642	Fuchs' Endothelial Dystrophy
+DOID:12185	otosclerosis	D010040	Otosclerosis
+DOID:12995	conduct disorder	D019955	Conduct Disorder
+DOID:1312	focal segmental glomerulosclerosis	D005923	Glomerulosclerosis, Focal Segmental
+DOID:216	dental caries	D003731	Dental Caries
+DOID:2355	anemia	D000740	Anemia
+DOID:594	panic disorder	D016584	Panic Disorder
+DOID:635	acquired immunodeficiency syndrome	D000163	Acquired Immunodeficiency Syndrome
