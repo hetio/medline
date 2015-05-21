@@ -3,6 +3,18 @@ import itertools
 import scipy.stats
 import pandas
 
+
+def read_pmids_tsv(path, key, min_articles = 1):
+    term_to_pmids = dict()
+    pmids_df = pandas.read_table(path, compression='gzip')
+    pmids_df = pmids_df[pmids_df.n_articles >= min_articles]
+    for i, row in pmids_df.iterrows():
+        term = row[key]
+        pmids = row.pubmed_ids.split('|')
+        term_to_pmids[term] = set(pmids)
+    pmids_df.drop('pubmed_ids', axis=1, inplace=True)
+    return pmids_df, term_to_pmids
+
 def score_pmid_cooccurrence(term0_to_pmids, term1_to_pmids, term0_name='term_0', term1_name='term_1', verbose=True):
     """
     Find pubmed cooccurrence between topics of two classes.
