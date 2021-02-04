@@ -55,7 +55,7 @@ def score_pmid_cooccurrence(term0_to_pmids, term1_to_pmids, term0_name='term_0',
         d = total_pmids - len(pmids0 | pmids1)
         contingency_table = [[a, b], [c, d]]
 
-        expected = len(pmids0) * len(pmids1) / total_pmids
+        expected = len(pmids0) * len(pmids1) / (total_pmids*total_pmids)
         enrichment = a / expected
 
         oddsratio, pvalue = scipy.stats.fisher_exact(contingency_table, alternative='greater')
