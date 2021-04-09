@@ -22,6 +22,12 @@ On 2021-04-09, ownership of this repository on GitHub was changed from `dhimmel/
 The `hetio` organization has GitHub LFS quota,
 providing a more convenient way to store large compressed files.
 
+At the time of the transfer, the only default (and only) branch was `gh-pages`.
+The `gh-pages` branch was renamed to `pre-lfs-archive`.
+A new default branch `main` was created, whose history has been migrated to use Git LFS.
+For the version of this repository used by Project Rephetio to create Hetionet v1.0,
+refer to the [v1.0 release](https://github.com/hetio/medline/releases/tag/v1.0).
+
 ## License
 
 This repository is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Universal: Public Domain Dedication").
