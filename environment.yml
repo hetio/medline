@@ -1,0 +1,21 @@
+name: medline
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jsonlines=2.0.0
+  - jupyterlab=3.0.13
+  - lxml=4.6.3
+  - networkx=2.5.1
+  - numpy=1.20.2
+  - pandas=1.2.3
+  - python=3.9.2
+  - requests=2.25.1
+  - scipy=1.6.2
+  - tqdm=4.60.0
+  - pip
+  - pip:
+    - git+https://github.com/dhimmel/pubmedpy.git@129ea162214a00cebf561a8ddb011a2828a6ebbf
+    - nxontology==0.1.4
+

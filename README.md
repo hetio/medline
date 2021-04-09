@@ -8,13 +8,32 @@ See the corresponding [Thinklab discussion](https://doi.org/10.15363/thinklab.d6
 ## Modules
 
 + [`eutility.py`](eutility.py) defines an `esearch_query` function for retreiving PubMed IDs matching a user-defined query.
-+ [`cooccurrence.py`](cooccurrence.py) computes the cooccurences bewteen two termsets, whose associated PubMed IDs have been retrieved.
++ [`cooccurrence.py`](cooccurrence.py) computes the cooccurences bewteen two termsets,
+  whose associated PubMed IDs have been retrieved.
 
 ## Notebooks
 
 + [`diseases.ipynb`](diseases.ipynb) computes disease-disease cooccurrence
 + [`symptoms.ipynb`](symptoms.ipynb) computes symptom-disease cooccurrence
-+ [`tissues.ipynb`](tissues.ipynb) computes anatomy-disease cooccurrence. This notebook depends on `data/disease-pmids.tsv.gz`, a dataset created by `symptoms.ipynb`.
++ [`tissues.ipynb`](tissues.ipynb) computes anatomy-disease cooccurrence.
+  This notebook depends on `data/disease-pmids.tsv.gz`,
+  a dataset created by `symptoms.ipynb`.
+
+## Environment
+
+```shell
+# create environment
+conda env create --file=environment.yml
+
+# update environment
+conda env update --file=environment.yml
+
+# activate environment
+conda activate medline
+
+# run jupyter lab for notebook development
+jupyter lab
+```
 
 ## History
 
