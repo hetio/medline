@@ -7,6 +7,8 @@ import requests
 def esearch_query(payload, retmax = 100, sleep=2):
     """
     Query the esearch E-utility.
+    NOTE: use `pubmedpy.eutilities.esearch_query` instead.
+    This function might be deleted in the future.
     """
     url = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
     payload['retmax'] = retmax

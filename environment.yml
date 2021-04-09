@@ -4,6 +4,7 @@ channels:
   - conda-forge
 
 dependencies:
+  - ipywidgets=7.6.3
   - jsonlines=2.0.0
   - jupyterlab=3.0.13
   - lxml=4.6.3
@@ -13,9 +14,10 @@ dependencies:
   - python=3.9.2
   - requests=2.25.1
   - scipy=1.6.2
+  - tenacity=7.0.0
   - tqdm=4.60.0
   - pip
   - pip:
-    - git+https://github.com/dhimmel/pubmedpy.git@129ea162214a00cebf561a8ddb011a2828a6ebbf
+    - git+https://github.com/dhimmel/pubmedpy.git@9d716768f5ab798ec448154588e4fd99afd7584a
     - nxontology==0.1.4
 
