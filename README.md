@@ -47,6 +47,15 @@ A new default branch `main` was created, whose history has been migrated to use 
 For the version of this repository used by Project Rephetio to create Hetionet v1.0,
 refer to the [v1.0 release](https://github.com/hetio/medline/releases/tag/v1.0).
 
+## Comparison to MRCOC
+
+MEDLINE [produces co-occurrence files](https://ii.nlm.nih.gov/MRCOC.shtml) under the codename MRCOC.
+More information is available in the 2016 report [Building an Updated MEDLINE Co-Occurrences (MRCOC) File](https://ii.nlm.nih.gov/MRCOC/MRCOC_Doc_2016.pdf).
+These files might be a viable alternative to the analyses in this repository for certain applications.
+However, they don't appear to contain topics for supplemental concept records
+(for example MeSH term [`C000591739`](https://id.nlm.nih.gov/mesh/2020/C000591739.html)).
+Feel free to open an issue with additional insights on or comparisons to MRCOC.
+
 ## License
 
 This repository is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Universal: Public Domain Dedication").
