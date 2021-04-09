@@ -1,6 +1,9 @@
 # Computing term cooccurrence in MEDLINE
 
-This repository quantifies term cooccurrence in MEDLINE. It's designed for computing the cooccurence of all pairs between two MeSH termsets. The repository computes MEDLINE cooccurences for the Rephetio hetnet. See the corresponding [Thinklab discussion](https://doi.org/10.15363/thinklab.d67 "Mining knowledge from MEDLINE articles and their indexed MeSH terms") for more information.
+This repository quantifies term cooccurrence in MEDLINE.
+It's designed for computing the cooccurence of all pairs between two MeSH termsets.
+The repository computes MEDLINE cooccurences for the Rephetio hetnet.
+See the corresponding [Thinklab discussion](https://doi.org/10.15363/thinklab.d67 "Mining knowledge from MEDLINE articles and their indexed MeSH terms") for more information.
 
 ## Modules
 
@@ -12,6 +15,12 @@ This repository quantifies term cooccurrence in MEDLINE. It's designed for compu
 + [`diseases.ipynb`](diseases.ipynb) computes disease-disease cooccurrence
 + [`symptoms.ipynb`](symptoms.ipynb) computes symptom-disease cooccurrence
 + [`tissues.ipynb`](tissues.ipynb) computes anatomy-disease cooccurrence. This notebook depends on `data/disease-pmids.tsv.gz`, a dataset created by `symptoms.ipynb`.
+
+## History
+
+On 2021-04-09, ownership of this repository on GitHub was changed from `dhimmel/medline` to `hetio/medline`.
+The `hetio` organization has GitHub LFS quota,
+providing a more convenient way to store large compressed files.
 
 ## License
 
