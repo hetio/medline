@@ -1,4 +1,5 @@
 import itertools
+from typing import Any, Dict, List, Set
 
 import scipy.stats
 import pandas
@@ -48,23 +49,39 @@ def score_pmid_cooccurrence(term0_to_pmids, term1_to_pmids, term0_name='term_0',
     for term0, term1 in itertools.product(term0_to_pmids, term1_to_pmids):
         pmids0 = term0_to_pmids[term0]
         pmids1 = term1_to_pmids[term1]
-
-        a = len(pmids0 & pmids1)
-        b = len(pmids0) - a
-        c = len(pmids1) - a
-        d = total_pmids - len(pmids0 | pmids1)
-        contingency_table = [[a, b], [c, d]]
-
-        # discussion on this formula in https://github.com/hetio/medline/issues/1
-        expected = len(pmids0) * len(pmids1) / total_pmids
-        enrichment = a / expected
-
-        oddsratio, pvalue = scipy.stats.fisher_exact(contingency_table, alternative='greater')
-        rows.append([term0, term1, a, expected, enrichment, oddsratio, pvalue])
-
-    columns = [term0_name, term1_name, 'cooccurrence', 'expected', 'enrichment', 'odds_ratio', 'p_fisher']
-    df = pandas.DataFrame(rows, columns=columns)
+        row = {
+            term0_name: term0,
+            term1_name: term1,
+            **cooccurrence_metrics(pmids0, pmids1, total_pmids=total_pmids)
+        }
+        rows.append(row)
+    df = pandas.DataFrame(rows)
 
     if verbose:
         print('\nCooccurrence scores calculated for {} {} -- {} pairs'.format(len(df), term0_name, term1_name))
     return df
+
+
+def cooccurrence_metrics(source_pmids: Set[str], target_pmids: Set[str], total_pmids: int) -> Dict[str, Any]:
+    """
+    Compute metrics of cooccurrence between two sets of pubmed ids.
+    Requires providing the total number of pubmed ids in the corpus.
+    """
+    a = len(source_pmids & target_pmids)
+    b = len(source_pmids) - a
+    c = len(target_pmids) - a
+    d = total_pmids - (a + b + c)
+    contingency_table = [[a, b], [c, d]]
+    # discussion on this formula in https://github.com/hetio/medline/issues/1
+    expected = len(source_pmids) * len(target_pmids) / total_pmids
+    enrichment = a / expected
+    odds_ratio, p_fisher = scipy.stats.fisher_exact(contingency_table, alternative='greater')
+    return {
+        "cooccurrence": a,
+        "expected": expected,
+        "enrichment": enrichment,
+        "odds_ratio": odds_ratio,
+        "p_fisher": p_fisher,
+        "n_source": len(source_pmids),
+        "n_target": len(target_pmids),
+    }
