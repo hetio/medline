@@ -13,11 +13,18 @@ See the corresponding [Thinklab discussion](https://doi.org/10.15363/thinklab.d6
 
 ## Notebooks
 
+The following notebooks were used to compute relationships for Hetionet v1.0 by [Project Rephetio](https://git.dhimmel.com/rephetio-manuscript/):
+
 + [`diseases.ipynb`](diseases.ipynb) computes disease-disease cooccurrence
 + [`symptoms.ipynb`](symptoms.ipynb) computes symptom-disease cooccurrence
 + [`tissues.ipynb`](tissues.ipynb) computes anatomy-disease cooccurrence.
   This notebook depends on `data/disease-pmids.tsv.gz`,
   a dataset created by `symptoms.ipynb`.
+
+The following notebooks are for a more general analysis to support custom user queries:
+
+- [`download-topics.ipynb`](download-topics.ipynb) downloads the PubMed IDs for all MeSH descriptors and supplementary disease concepts and saves this to [`data/mesh-term-topics-noexp.jsonl.gz`](data/mesh-term-topics-noexp.jsonl.gz).
+- [`cooccur-topics.ipynb`](cooccur-topics.ipynb) reads `mesh-term-topics-noexp.jsonl.gz` to compute cooccurrence between a user-selected term with all other MeSH terms.
 
 ## Environment
 
